@@ -1,0 +1,27 @@
+repo:
+  name: react-collapsable
+  description: A Collapsable React Component
+  owner: dahliacreative
+
+prerequisites:
+  - name: GitHub CLI
+  - name: yarn
+  - name: node
+    version: '>=14.0.0'
+
+setup:
+  - yarn install
+  - yarn storybook
+
+dev:
+  command: yarn storybook
+  port: 6006
+
+build:
+  command: yarn build
+
+test:
+  command: yarn test
+
+lint:
+  command: yarn lint
